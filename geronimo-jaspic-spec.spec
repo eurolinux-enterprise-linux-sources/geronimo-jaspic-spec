@@ -2,7 +2,7 @@
 %define pkg_name geronimo-jaspic_%{api_version}_spec
 Name:          geronimo-jaspic-spec
 Version:       1.1
-Release:       8%{?dist}
+Release:       9%{?dist}
 Summary:       Java Authentication SPI for Containers
 License:       ASL 2.0 and W3C
 Group:         Development/Libraries
@@ -61,6 +61,9 @@ done
 %doc LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.1-9
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 1.1-8
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
